@@ -85,11 +85,11 @@ function ExerciseEvent(playerId, tilePosition, weaponId, dummyId)
 	end
 
 	local weaponCharges = weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES)
-	if not weaponCharges or weaponCharges <= 0 then
-		weapon:remove(1) -- ??
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
-		LeaveTraining(playerId)
-		return false
+  if not weaponCharges or weaponCharges <= 0 then
+    weapon:remove(1) -- ??
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
+    LeaveTraining(playerId)
+    return false
 	end
 
 	local isMagic = ExerciseWeaponsTable[weaponId].skill == SKILL_MAGLEVEL
@@ -99,12 +99,14 @@ function ExerciseEvent(playerId, tilePosition, weaponId, dummyId)
 	local rate = dummies[dummyId] / 100
 
 	if isMagic then
-		player:addManaSpent(500 * rate)
+		player:addManaSpent(500 * rate * 10)
+		player:addSkillTries(SKILL_FIST, 12 * rate * 10)
 	else
-		player:addSkillTries(ExerciseWeaponsTable[weaponId].skill, 7 * rate)
+		player:addSkillTries(ExerciseWeaponsTable[weaponId].skill, 7 * rate * 10)
+		player:addSkillTries(SKILL_FIST, 12 * rate * 10)
 	end
 
-	weapon:setAttribute(ITEM_ATTRIBUTE_CHARGES, (weaponCharges - 1))
+	weapon:setAttribute(ITEM_ATTRIBUTE_CHARGES, (weaponCharges - 10))
 	tilePosition:sendMagicEffect(CONST_ME_HITAREA)
 
 	if ExerciseWeaponsTable[weaponId].effect then
@@ -112,13 +114,16 @@ function ExerciseEvent(playerId, tilePosition, weaponId, dummyId)
 	end
 
 	if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then
-		weapon:remove(1)
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
-		LeaveTraining(playerId)
-		return false
+			weapon:remove(1)
+			local weapon = player:getItemById(weaponId, true)
+			if not weapon or (not weapon:isItem() or not weapon:hasAttribute(ITEM_ATTRIBUTE_CHARGES)) then
+					player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
+					LeaveTraining(playerId)
+					return false
+			end
 	end
 
 	local vocation = player:getVocation()
-	onExerciseTraining[playerId].event = addEvent(ExerciseEvent, vocation:getBaseAttackSpeed() / configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED), playerId, tilePosition, weaponId, dummyId)
+	onExerciseTraining[playerId].event = addEvent(ExerciseEvent, 1000, playerId, tilePosition, weaponId, dummyId)
 	return true
 end
