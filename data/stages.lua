@@ -72,7 +72,7 @@ skillsStages = {
 
 magicLevelStages = {
 	{
-		minlevel = 10,
+		minlevel = 0,
 		maxlevel = 39,
 		multiplier = 20,
 	},
