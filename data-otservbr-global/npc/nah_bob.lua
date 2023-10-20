@@ -45,65 +45,11 @@ npcType.onCloseChannel = function(npc, creature)
 	npcHandler:onCloseChannel(npc, creature)
 end
 
-local function creatureSayCallback(npc, creature, type, message)
-	local player = Player(creature)
-	local playerId = player:getId()
-
-	if not npcHandler:checkInteraction(npc, creature) then
-		return false
-	end
-
-	if MsgContains(message, "cookie") then
-		if player:getStorageValue(Storage.WhatAFoolish.Questline) == 31 and player:getStorageValue(Storage.WhatAFoolish.CookieDelivery.Djinn) ~= 1 then
-			npcHandler:say("You brought cookies! How nice of you! Can I have one?", npc, creature)
-			npcHandler:setTopic(playerId, 1)
-		end
-	elseif MsgContains(message, "yes") then
-		if npcHandler:getTopic(playerId) == 1 then
-			if not player:removeItem(130, 1) then
-				npcHandler:say("You have no cookie that I'd like.", npc, creature)
-				npcHandler:setTopic(playerId, 0)
-				return true
-			end
-
-			player:setStorageValue(Storage.WhatAFoolish.CookieDelivery.Djinn, 1)
-			if player:getCookiesDelivered() == 10 then
-				player:addAchievement("Allow Cookies?")
-			end
-
-			npc:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
-			npcHandler:say("You see, good deeds like this will ... YOU ... YOU SPAWN OF EVIL! I WILL MAKE SURE THE MASTER LEARNS ABOUT THIS!", npc, creature)
-			npcHandler:removeInteraction(npc, creature)
-			npcHandler:resetNpc(creature)
-		end
-	elseif MsgContains(message, "no") then
-		if npcHandler:getTopic(playerId) == 1 then
-			npcHandler:say("I see.", npc, creature)
-			npcHandler:setTopic(playerId, 0)
-		end
-	end
-	return true
-end
-
-local function onTradeRequest(npc, creature)
-	local player = Player(creature)
-	local playerId = player:getId()
-
-	if player:getStorageValue(Storage.DjinnWar.MaridFaction.Mission03) ~= 3 then
-		npcHandler:say("I'm sorry, human. But you need Gabel's permission to trade with me.", npc, creature)
-		return false
-	end
-
-	return true
-end
-
 npcHandler:setMessage(MESSAGE_GREET, "<Sighs> Another {customer}! I've only just sat down! What is it, |PLAYERNAME|?")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Bye now, Neutrala |PLAYERNAME|. Visit old Bob again one day!")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Bye then.")
 npcHandler:setMessage(MESSAGE_SENDTRADE, "At your service, just browse through my wares.")
 
-npcHandler:setCallback(CALLBACK_ON_TRADE_REQUEST, onTradeRequest)
-npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {

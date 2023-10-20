@@ -85,37 +85,10 @@ npcType.onCloseChannel = function(npc, creature)
 	npcHandler:onCloseChannel(npc, creature)
 end
 
-local function creatureSayCallback(npc, creature, type, message)
-	local player = Player(creature)
-	local playerId = player:getId()
-
-	if not npcHandler:checkInteraction(npc, creature) then
-		return false
-	end
-
-	ParseAlesarSay(npc, creature, message, npcHandler)
-	return true
-end
-
-local function onTradeRequest(npc, creature)
-	local player = Player(creature)
-	local playerId = player:getId()
-
-	if player:getStorageValue(Storage.DjinnWar.EfreetFaction.Mission03) ~= 3 then
-		npcHandler:say("I'm sorry, but you don't have Malor's permission to trade with me.", npc, creature)
-		return false
-	end
-
-	return true
-end
-
 npcHandler:setMessage(MESSAGE_GREET, "What do you want from me, |PLAYERNAME|?")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Finally.")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Finally.")
 npcHandler:setMessage(MESSAGE_SENDTRADE, "At your service, just browse through my wares.")
-
-npcHandler:setCallback(CALLBACK_ON_TRADE_REQUEST, onTradeRequest)
-npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
