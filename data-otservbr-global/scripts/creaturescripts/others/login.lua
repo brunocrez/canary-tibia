@@ -22,9 +22,10 @@ local playerLogin = CreatureEvent("PlayerLogin")
 
 function playerLogin.onLogin(player)
 	local items = {
-		{ 3003, 1 },
-		{ 3457, 1 },
+		{ 3003, 1 }, -- Rope
+		{ 3457, 1 }, -- Shovel
 	}
+
 	if player:getLastLoginSaved() == 0 then
 		player:sendOutfitWindow()
 		local backpack = player:addItem(2854)
@@ -33,6 +34,11 @@ function playerLogin.onLogin(player)
 				backpack:addItem(items[i][1], items[i][2])
 			end
 		end
+
+		local letter = player:addItem(3505, 1)
+		if letter then
+			letter:setAttribute(ITEM_ATTRIBUTE_TEXT, "Use o comando !reward para receber uma varinha de 7000 cargas de sua escolha!")
+		end		
 
 		local vocationId = player:getVocation():getId()
 
@@ -55,7 +61,7 @@ function playerLogin.onLogin(player)
 			player:addItem(3350, 1, true, 1, CONST_SLOT_LEFT) -- Bow
 			player:addItem(35848, 1, true, 1, CONST_SLOT_RIGHT) -- Blue Quiver
 			player:addItem(3372, 1, true, 1, CONST_SLOT_LEGS) -- Brass Legs
-			backpack:addItem(3447) -- Arrow
+			backpack:addItem(3447, 1) -- Arrow
 		end
 
 		if vocationId == 8 then -- Elite Knight
@@ -63,8 +69,8 @@ function playerLogin.onLogin(player)
 			player:addItem(3425, 1, true, 1, CONST_SLOT_RIGHT) -- Dwarven Shield
 			player:addItem(3372, 1, true, 1, CONST_SLOT_LEGS) -- Brass Legs
 			player:addItem(3300, 1, true, 1, CONST_SLOT_LEFT) -- Katana
-			backpack:addItem(3286) -- Mace
-			backpack:addItem(3276) -- Hatchet
+			backpack:addItem(3286, 1) -- Mace
+			backpack:addItem(3276, 1) -- Hatchet
 		end
 
 		player:addItem(2920, 1, true, 1, CONST_SLOT_AMMO) -- Torch
