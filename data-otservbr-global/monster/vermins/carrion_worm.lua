@@ -75,7 +75,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "gold coin", chance = 50000, maxCount = 45 },
+	{ name = "gold coin", chance = 50000, maxCount = 90 },
 	{ name = "meat", chance = 9460, maxCount = 2 },
 	{ name = "worm", chance = 2100, maxCount = 2 },
 	{ name = "carrion worm fang", chance = 10000 },
@@ -83,7 +83,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -45 },
+	{ name = "melee", interval = 1000, chance = 100, minDamage = 0, maxDamage = -45 },
 }
 
 monster.defenses = {
