@@ -63,7 +63,7 @@ GameStore.Categories = {
 			{
 				icons = { "Premium_Time_30.png" },
 				name = string.format("30 Days of %s", premiumOfferName),
-				price = 250,
+				price = 400,
 				id = 3030,
 				validUntil = 30,
 				description = premiumDescription,
@@ -72,7 +72,7 @@ GameStore.Categories = {
 			{
 				icons = { "Premium_Time_90.png" },
 				name = string.format("90 Days of %s", premiumOfferName),
-				price = 750,
+				price = 1100,
 				id = 3090,
 				validUntil = 90,
 				description = premiumDescription,
@@ -81,7 +81,7 @@ GameStore.Categories = {
 			{
 				icons = { "Premium_Time_180.png" },
 				name = string.format("180 Days of %s", premiumOfferName),
-				price = 1500,
+				price = 2200,
 				id = 3180,
 				validUntil = 180,
 				description = premiumDescription,
@@ -90,7 +90,7 @@ GameStore.Categories = {
 			{
 				icons = { "Premium_Time_360.png" },
 				name = string.format("360 Days of %s", premiumOfferName),
-				price = 3000,
+				price = 4500,
 				id = 3360,
 				validUntil = 360,
 				description = premiumDescription,
@@ -499,7 +499,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strong_Health_Potion.png" },
 				name = "Strong Health Potion",
-				price = 10,
+				price = 25,
 				itemtype = 236,
 				count = 100,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -508,7 +508,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strong_Health_Potion.png" },
 				name = "Strong Health Potion",
-				price = 25,
+				price = 50,
 				itemtype = 236,
 				count = 250,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -517,7 +517,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strong_Mana_Potion.png" },
 				name = "Strong Mana Potion",
-				price = 45,
+				price = 25,
 				itemtype = 237,
 				count = 100,
 				description = "<i>Refills your character's mana.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -526,7 +526,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strong_Mana_Potion.png" },
 				name = "Strong Mana Potion",
-				price = 25,
+				price = 50,
 				itemtype = 237,
 				count = 250,
 				description = "<i>Refills your character's mana.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -535,7 +535,7 @@ GameStore.Categories = {
 			{
 				icons = { "Supreme_Health_Potion.png" },
 				name = "Supreme Health Potion",
-				price = 45,
+				price = 100,
 				itemtype = 23375,
 				count = 100,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -544,7 +544,7 @@ GameStore.Categories = {
 			{
 				icons = { "Supreme_Health_Potion.png" },
 				name = "Supreme Health Potion",
-				price = 100,
+				price = 225,
 				itemtype = 23375,
 				count = 250,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -553,7 +553,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ultimate_Health_Potion.png" },
 				name = "Ultimate Health Potion",
-				price = 225,
+				price = 50,
 				itemtype = 7643,
 				count = 100,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -562,7 +562,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ultimate_Health_Potion.png" },
 				name = "Ultimate Health Potion",
-				price = 50,
+				price = 125,
 				itemtype = 7643,
 				count = 250,
 				description = "<i>Restores your character's hit points.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -589,7 +589,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ultimate_Spirit_Potion.png" },
 				name = "Ultimate Spirit Potion",
-				price = 759,
+				price = 75,
 				itemtype = 23374,
 				count = 100,
 				description = "<i>Restores your character's hit points and mana.</i>\n\n{character}\n{vocationlevelcheck}\n{storeinbox}\n{battlesign}\n{capacity}",
@@ -617,7 +617,7 @@ GameStore.Categories = {
 			{
 				icons = { "Animate_Dead_Rune.png" },
 				name = "Animate Dead Rune",
-				price = 75,
+				price = 50,
 				itemtype = 3203,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck} only buyable if fitting vocation and level of purchasing character\n{battlesign}\n{capacity}\n\n<i>After a long time of research, the magicians of Edron succeeded in storing some life energy in a rune. When this energy was unleashed onto a body it was found that an undead creature arose that could be mentally controlled by the user of the rune. This rune is useful to create allies in combat.</i>",
@@ -626,7 +626,7 @@ GameStore.Categories = {
 			{
 				icons = { "Avalanche_Rune.png" },
 				name = "Avalanche Rune",
-				price = 12,
+				price = 50,
 				itemtype = 3161,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>The ice damage which arises from this rune is a useful weapon in every battle but it comes in particularly handy if you fight against a horde of creatures dominated by the element fire.</i>",
@@ -635,7 +635,7 @@ GameStore.Categories = {
 			{
 				icons = { "Chameleon_Rune.png" },
 				name = "Chameleon Rune",
-				price = 42,
+				price = 50,
 				itemtype = 3178,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>The metamorphosis caused by this rune is only superficial, and while casters who are using the rune can take on the exterior form of nearly any inanimate object, they will always retain their original smell and mental abilities. So there is no real practical use for this rune, making this largely a fun rune.</i>",
@@ -644,7 +644,7 @@ GameStore.Categories = {
 			{
 				icons = { "Convince_Creature_Rune.png" },
 				name = "Convince Creature Rune",
-				price = 16,
+				price = 25,
 				itemtype = 3177,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Using this rune together with some mana, you can convince certain creatures. The needed amount of mana is determined by the power of the creature one wishes to convince, so the amount of mana to convince a rat is lower than that which is needed for an orc.</i>",
@@ -653,7 +653,7 @@ GameStore.Categories = {
 			{
 				icons = { "Cure_Poison_Rune_(Item).png" },
 				name = "Cure Poison Rune",
-				price = 13,
+				price = 25,
 				itemtype = 3153,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>In the old days, many adventurers fell prey to poisonous creatures that were roaming the caves and forests. After many years of research druids finally succeeded in altering the cure poison spell so it could be bound to a rune. By using this rune it is possible to stop the effect of any known poison.</i>",
@@ -662,7 +662,7 @@ GameStore.Categories = {
 			{
 				icons = { "Disintegrate_Rune.png" },
 				name = "Disintegrate Rune",
-				price = 5,
+				price = 25,
 				itemtype = 3197,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Nothing is worse than being cornered when fleeing from an enemy you just cannot beat, especially if the obstacles in your way are items you could easily remove if only you had the time! However, there is one reliable remedy: The Disintegrate rune will instantly destroy up to 500 movable items that are in your way, making room for a quick escape.</i>",
@@ -671,7 +671,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Bomb_Rune.png" },
 				name = "Energy Bomb Rune",
-				price = 40,
+				price = 50,
 				itemtype = 3149,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Using the Energy Bomb rune will create a field of deadly energy that deals damage to all who carelessly step into it. Its area of effect is covering a full 9 square metres! Creatures that are caught in the middle of an Energy Bomb are frequently confused by the unexpected effect, and some may even stay in the field of deadly sparks for a while.</i>",
@@ -680,7 +680,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Field_Rune.png" },
 				name = "Energy Field Rune",
-				price = 8,
+				price = 25,
 				itemtype = 3164,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This spell creates a limited barrier made up of crackling energy that will cause electrical damage to all those passing through. Since there are few creatures that are immune to the harmful effects of energy this spell is not to be underestimated.</i>",
@@ -689,7 +689,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Wall_Rune.png" },
 				name = "Energy Wall Rune",
-				price = 17,
+				price = 25,
 				itemtype = 3166,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Casting this spell generates a solid wall made up of magical energy. Walls made this way surpass any other magically created obstacle in width, so it is always a good idea to have an Energy Wall rune or two in one's pocket when travelling through the wilderness.</i>",
@@ -698,7 +698,7 @@ GameStore.Categories = {
 			{
 				icons = { "Explosion_Rune.png" },
 				name = "Explosion Rune",
-				price = 6,
+				price = 25,
 				itemtype = 3200,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This rune must be aimed at areas rather than at specific creatures, so it is possible for explosions to be unleashed even if no targets are close at all. These explosions cause a considerable physical damage within a substantial blast radius.</i>",
@@ -707,7 +707,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fireball_Rune.png" },
 				name = "Fireball Rune",
-				price = 6,
+				price = 25,
 				itemtype = 3189,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>When this rune is used a massive fiery ball is released which hits the aimed foe with immense power. It is especially effective against opponents of the element earth.</i>",
@@ -716,7 +716,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Bomb_Rune.png" },
 				name = "Fire Bomb Rune",
-				price = 29,
+				price = 50,
 				itemtype = 3192,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This rune is a deadly weapon in the hands of the skilled user. On releasing it an area of 9 square metres is covered by searing flames that will scorch all those that are unfortunate enough to be caught in them. Worse, many monsters are confused by the unexpected blaze, and with a bit of luck a caster will even manage to trap his opponents by using the spell.</i>",
@@ -725,7 +725,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Field_Rune.png" },
 				name = "Fire Field Rune",
-				price = 6,
+				price = 25,
 				itemtype = 3188,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>When this rune is used a field of one square metre is covered by searing fire that will last for some minutes, gradually diminishing as the blaze wears down. As with all field spells, Fire Field is quite useful to block narrow passageways or to create large, connected barriers.</i>",
@@ -734,7 +734,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Wall_Rune.png" },
 				name = "Fire Wall Rune",
-				price = 12,
+				price = 25,
 				itemtype = 3190,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This rune offers reliable protection against all creatures that are afraid of fire. The exceptionally long duration of the spell as well as the possibility to form massive barriers or even protective circles out of fire walls make this a versatile, practical spell.</i>",
@@ -743,7 +743,7 @@ GameStore.Categories = {
 			{
 				icons = { "Great_Fireball_Rune.png" },
 				name = "Great Fireball Rune",
-				price = 12,
+				price = 50,
 				itemtype = 3191,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>A shot of this rune affects a huge area - up to 37 square metres! It stands to reason that the Great Fireball is a favourite of most Tibians, as it is well suited both to hit whole crowds of monsters and individual targets that are difficult to hit because they are fast or hard to spot.</i>",
@@ -752,7 +752,7 @@ GameStore.Categories = {
 			{
 				icons = { "Icicle_Rune.png" },
 				name = "Icicle Rune",
-				price = 6,
+				price = 25,
 				itemtype = 3158,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Particularly creatures determined by the element fire are vulnerable against this ice-cold rune. Being hit by the magic stored in this rune, an ice arrow seems to pierce the heart of the struck victim. The damage done by this rune is quite impressive which makes this a quite popular rune among Tibian mages.</i>",
@@ -761,7 +761,7 @@ GameStore.Categories = {
 			{
 				icons = { "Intense_Healing_Rune.png" },
 				name = "Intense Healing Rune",
-				price = 19,
+				price = 25,
 				itemtype = 3152,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This rune is commonly used by young adventurers who are not skilled enough to use the rune's stronger version. Also, since the rune's effectiveness is determined by the user's magic skill, it is still popular among experienced spell casters who use it to get effective healing magic at a cheap price.</i>",
@@ -770,7 +770,7 @@ GameStore.Categories = {
 			{
 				icons = { "Magic_Wall_Rune.png" },
 				name = "Magic Wall Rune",
-				price = 23,
+				price = 50,
 				itemtype = 3180,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This spell causes all particles that are contained in the surrounding air to quickly gather and contract until a solid wall is formed that covers one full square metre. The wall that is formed that way is impenetrable to any missiles or to light and no creature or character can walk through it. However, the wall will only last for a couple of seconds.</i>",
@@ -779,7 +779,7 @@ GameStore.Categories = {
 			{
 				icons = { "Poison_Bomb_Rune.png" },
 				name = "Poison Bomb Rune",
-				price = 17,
+				price = 50,
 				itemtype = 3173,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>This rune causes an area of 9 square metres to be contaminated with toxic gas that will poison anybody who is caught within it. Conceivable applications include the blocking of areas or the combat against fast-moving or invisible targets. Keep in mind, however, that there are a number of creatures that are immune to poison.</i>",
@@ -788,7 +788,7 @@ GameStore.Categories = {
 			{
 				icons = { "Poison_Wall_Rune.png" },
 				name = "Poison Wall Rune",
-				price = 10,
+				price = 25,
 				itemtype = 3176,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>When this rune is used a wall of concentrated toxic fumes is created which inflicts a moderate poison on all those who are foolish enough to enter it. The effect is usually impressive enough to discourage monsters from doing so, although few of the stronger ones will hesitate if there is nothing but a poison wall between them and their dinner.</i>",
@@ -797,7 +797,7 @@ GameStore.Categories = {
 			{
 				icons = { "Soulfire_Rune.png" },
 				name = "Soulfire Rune",
-				price = 9,
+				price = 25,
 				itemtype = 3195,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Soulfire is an immensely evil spell as it directly targets a creature's very life essence. When the rune is used on a victim, its soul is temporarily moved out of its body, casting it down into the blazing fires of hell itself! Note that the experience and the mental strength of the caster influence the damage that is caused.</i>",
@@ -806,7 +806,7 @@ GameStore.Categories = {
 			{
 				icons = { "Stone_Shower_Rune.png" },
 				name = "Stone Shower Rune",
-				price = 7,
+				price = 25,
 				itemtype = 3175,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Particularly creatures with an affection to energy will suffer greatly from this rune filled with powerful earth damage. As the name already says, a shower of stones drums on the opponents of the rune user in an area up to 37 squares.</i>",
@@ -815,7 +815,7 @@ GameStore.Categories = {
 			{
 				icons = { "Sudden_Death_Rune.png" },
 				name = "Sudden Death Rune",
-				price = 28,
+				price = 50,
 				itemtype = 3155,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Nearly no other spell can compare to Sudden Death when it comes to sheer damage. For this reason it is immensely popular despite the fact that only a single target is affected. However, since the damage caused by the rune is of deadly nature, it is less useful against most undead creatures.</i>",
@@ -824,7 +824,7 @@ GameStore.Categories = {
 			{
 				icons = { "Thunderstorm_Rune.png" },
 				name = "Thunderstorm Rune",
-				price = 9,
+				price = 50,
 				itemtype = 3202,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>Flashes filled with dangerous energy hit the rune user's opponent when this rune is being used. It is especially effective against ice dominated creatures. Covering up an area up to 37 squares, this rune is particularly useful when you meet a whole mob of opponents.</i>",
@@ -833,7 +833,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ultimate_Healing_Rune.png" },
 				name = "Ultimate Healing Rune",
-				price = 35,
+				price = 50,
 				itemtype = 3160,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>The coveted Ultimate Healing rune is an all-time favourite among all vocations. No other healing enchantments that are bound into runes can compare to its salutary effect.</i>",
@@ -842,7 +842,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wild_Growth_Rune.png" },
 				name = "Wild Growth Rune",
-				price = 32,
+				price = 50,
 				itemtype = 3156,
 				count = 250,
 				description = "{character}\n{storeinbox}\n{vocationlevelcheck}\n{battlesign}\n{capacity}\n\n<i>By unleashing this spell, all seeds that are lying dormant in the surrounding quickly sprout and grow into full-sized plants, thus forming an impenetrable thicket. Unfortunately, plant life created this way is short-lived and will collapse within minutes, so the magically created obstacle will not last long.</i>",
@@ -1961,6 +1961,14 @@ GameStore.Categories = {
 				description = "{info} usable by all characters of the account\n{speedboost}\n\n<i>A fierce and grim guardian of the underworld has risen to fight side by side with the bravest warriors in order to send evil creatures into the realm of the dead. The three headed Cerberus Champion is constantly baying for blood and using its sharp fangs it easily rips apart even the strongest armour and shield.",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
+			{
+				icons = { "Jousting_Eagle.png" },
+				name = "Jousting Eagle",
+				price = 750,
+				id = 145,
+				description = "{info} usable by all characters of the account\n{speedboost}\n\n<i>High above the clouds far away from dry land, the training of giant eagles takes place. Only the cream of the crop is able to survive in such harsh environment long enough to call themselves Jousting Eagles while the weaklings find themselves at the bottom of the sea. The tough ones become noble and graceful mounts that are well known for their agility and endurance.</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
 		},
 	},
 	-- Cosmetics ~ Outfits (base outfit has addon = 0 or no defined addon. By default addon is set to 0)
@@ -2552,7 +2560,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Azure_Carpet.png" },
 				name = "Azure Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 23710,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2624,7 +2632,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Bamboo_Mat.png" },
 				name = "Bamboo Mat",
-				price = 25,
+				price = 50,
 				itemtype = 23433,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2777,7 +2785,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Colourful_Carpet.png" },
 				name = "Colourful Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 24417,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2786,7 +2794,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Colourful_PomPom_Carpet.png" },
 				name = "Colourful Pom-Pom Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 35889,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2795,7 +2803,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Crested_Carpet.png" },
 				name = "Crested Carpet",
-				price = 25,
+				price = 50,
 				itemtype = 26152,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2804,7 +2812,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Crimson_Carpet.png" },
 				name = "Crimson Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 23707,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2831,7 +2839,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dark_Parquet.png" },
 				name = "Dark Parquet",
-				price = 30,
+				price = 50,
 				itemtype = 23713,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2840,7 +2848,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Decorated_Carpet.png" },
 				name = "Decorated Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 26154,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2876,8 +2884,8 @@ GameStore.Categories = {
 			{
 				icons = { "Demon_Statue.png" },
 				name = "Demon Statue",
-				price = 34058,
-				itemtype = 31212,
+				price = 200,
+				itemtype = 34058,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
@@ -2885,7 +2893,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Diamond_Carpet.png" },
 				name = "Diamond Carpet",
-				price = 25,
+				price = 50,
 				itemtype = 24420,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -2939,7 +2947,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Emerald_Carpet.png" },
 				name = "Emerald Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 23711,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3083,7 +3091,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Flowery_Carpet.png" },
 				name = "Flowery Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 24416,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3092,7 +3100,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Flowery_Grass.png" },
 				name = "Flowery Grass",
-				price = 30,
+				price = 50,
 				itemtype = 39797,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3137,7 +3145,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Fur_Carpet.png" },
 				name = "Fur Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 24419,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3200,7 +3208,7 @@ GameStore.Categories = {
 			{
 				icons = { "Grandiose_Carpet.png" },
 				name = "Grandiose Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 35942,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3227,7 +3235,7 @@ GameStore.Categories = {
 			{
 				icons = { "Grass.png" },
 				name = "Grass",
-				price = 30,
+				price = 50,
 				itemtype = 37019,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3470,7 +3478,7 @@ GameStore.Categories = {
 			{
 				icons = { "Light_Parquet.png" },
 				name = "Light Parquet",
-				price = 30,
+				price = 50,
 				itemtype = 23712,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3515,7 +3523,7 @@ GameStore.Categories = {
 			{
 				icons = { "Loose_Opulent_Floor_Intarsia.png" },
 				name = "Loose Opulent Floor Intarsia",
-				price = 30,
+				price = 50,
 				itemtype = 42338,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3542,7 +3550,7 @@ GameStore.Categories = {
 			{
 				icons = { "Marble_Floor.png" },
 				name = "Marble Floor",
-				price = 30,
+				price = 50,
 				itemtype = 23720,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3587,7 +3595,7 @@ GameStore.Categories = {
 			{
 				icons = { "Midnight_Panther_Rug.png" },
 				name = "Midnight Panther Rug",
-				price = 30,
+				price = 50,
 				itemtype = 35895,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3623,7 +3631,7 @@ GameStore.Categories = {
 			{
 				icons = { "Moon_Carpet.png" },
 				name = "Moon Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 35898,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3632,7 +3640,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Mystic_Carpet.png" },
 				name = "Mystic Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 26118,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3641,7 +3649,7 @@ GameStore.Categories = {
 			{
 				icons = { "Natural_PomPom_Carpet.png" },
 				name = "Natural Pom-Pom Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 35891,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3650,7 +3658,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Night_Sky_Carpet.png" },
 				name = "Night Sky Carpet",
-				price = 25,
+				price = 50,
 				itemtype = 24422,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3668,7 +3676,7 @@ GameStore.Categories = {
 			{
 				icons = { "Opulent_Carpet.png" },
 				name = "Opulent Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 42341,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3677,7 +3685,7 @@ GameStore.Categories = {
 			{
 				icons = { "Opulent_Floor_Intarsia.png" },
 				name = "Opulent Floor Intarsia",
-				price = 30,
+				price = 50,
 				itemtype = 42339,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3695,7 +3703,7 @@ GameStore.Categories = {
 			{
 				icons = { "Opulent_Wooden_Floor.png" },
 				name = "Opulent Wooden Floor",
-				price = 30,
+				price = 50,
 				itemtype = 42337,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3704,7 +3712,7 @@ GameStore.Categories = {
 			{
 				icons = { "Opulent_Wood_Floor_Planks.png" },
 				name = "Opulent Wood Floor Planks",
-				price = 30,
+				price = 50,
 				itemtype = 42336,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3722,7 +3730,7 @@ GameStore.Categories = {
 			{
 				icons = { "Owin_Rug.png" },
 				name = "Owin Rug",
-				price = 30,
+				price = 50,
 				itemtype = 35893,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3758,7 +3766,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-Up_Opulent_Carpet.png" },
 				name = "Rolled-Up Opulent Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 42340,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3767,7 +3775,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Patterned_Carpet.png" },
 				name = "Patterned Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 24421,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -3921,7 +3929,7 @@ GameStore.Categories = {
 			{
 				icons = { "Romantic_Carpet.png" },
 				name = "Romantic Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 35899,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4011,7 +4019,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Shaggy_Carpet.png" },
 				name = "Shaggy Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 26116,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4047,7 +4055,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Star_Carpet.png" },
 				name = "Star Carpet",
-				price = 25,
+				price = 50,
 				itemtype = 24423,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4056,7 +4064,7 @@ GameStore.Categories = {
 			{
 				icons = { "Piled-up_Stone_Tiles.png" },
 				name = "Stone Tiles",
-				price = 25,
+				price = 50,
 				itemtype = 26121,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4065,7 +4073,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Striped_Carpet .png" },
 				name = "Striped Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 24418,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4182,7 +4190,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Lamp.png" },
 				name = "Vengothic Lamp",
-				price = 180,
+				price = 350,
 				itemtype = 25210,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4200,7 +4208,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Verdant_Carpet.png" },
 				name = "Verdant Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 26114,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4227,7 +4235,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Basin.png" },
 				name = "Volcanic Basin",
-				price = 90,
+				price = 200,
 				itemtype = 36618,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4236,7 +4244,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Bulb.png" },
 				name = "Volcanic Bulb",
-				price = 80,
+				price = 200,
 				itemtype = 36624,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4245,7 +4253,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Mirror.png" },
 				name = "Volcanic Mirror",
-				price = 120,
+				price = 200,
 				itemtype = 36626,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4254,7 +4262,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Sphere.png" },
 				name = "Volcanic Sphere",
-				price = 90,
+				price = 200,
 				itemtype = 36620,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4263,8 +4271,8 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Spire.png" },
 				name = "Volcanic Spire",
-				price = 80,
-				itemtype = 36620,
+				price = 200,
+				itemtype = 36622,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
@@ -4309,7 +4317,7 @@ GameStore.Categories = {
 				icons = { "Water_Bucket.png" },
 				name = "Water Bucket",
 				price = 60,
-				itemtype = 34280,
+				itemtype = 35187,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
@@ -4326,7 +4334,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Wheat_Carpet.png" },
 				name = "Wheat Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 26151,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4335,7 +4343,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_White_Fur_Carpet.png" },
 				name = "White Fur Carpet",
-				price = 30,
+				price = 50,
 				itemtype = 23432,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4353,7 +4361,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Wooden_Planks.png" },
 				name = "Wooden Planks",
-				price = 25,
+				price = 50,
 				itemtype = 26123,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4362,7 +4370,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wooden_Sandals.png" },
 				name = "Wooden Sandals",
-				price = 40,
+				price = 50,
 				itemtype = 37801,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4371,7 +4379,7 @@ GameStore.Categories = {
 			{
 				icons = { "Rolled-up_Yalaharian_Carpet.png" },
 				name = "Yalaharian Carpet",
-				price = 35,
+				price = 50,
 				itemtype = 23431,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4398,7 +4406,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_1.png" },
 				name = "Zaoan Bamboo Tiles 1",
-				price = 30,
+				price = 50,
 				itemtype = 37763,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4407,7 +4415,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_2.png" },
 				name = "Zaoan Bamboo Tiles 2",
-				price = 30,
+				price = 50,
 				itemtype = 37764,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4416,7 +4424,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_3.png" },
 				name = "Zaoan Bamboo Tiles 3",
-				price = 30,
+				price = 50,
 				itemtype = 37765,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4425,7 +4433,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_4.png" },
 				name = "Zaoan Bamboo Tiles 4",
-				price = 30,
+				price = 50,
 				itemtype = 37766,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4434,7 +4442,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_5.png" },
 				name = "Zaoan Bamboo Tiles 5",
-				price = 30,
+				price = 50,
 				itemtype = 37767,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -4443,7 +4451,7 @@ GameStore.Categories = {
 			{
 				icons = { "Zaoan_Bamboo_Tiles_6.png" },
 				name = "Zaoan Bamboo Tiles 6",
-				price = 30,
+				price = 50,
 				itemtype = 37768,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5443,7 +5451,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Cabinet.png" },
 				name = "Vengothic Cabinet",
-				price = 100,
+				price = 300,
 				itemtype = 25227,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5452,7 +5460,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Chair.png" },
 				name = "Vengothic Chair",
-				price = 50,
+				price = 200,
 				itemtype = 25223,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5461,7 +5469,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Chest.png" },
 				name = "Vengothic Chest",
-				price = 80,
+				price = 200,
 				itemtype = 25229,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5470,7 +5478,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Table.png" },
 				name = "Vengothic Table",
-				price = 50,
+				price = 200,
 				itemtype = 25225,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5515,7 +5523,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Chair.png" },
 				name = "Volcanic Chair",
-				price = 60,
+				price = 200,
 				itemtype = 36634,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5524,7 +5532,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Chest.png" },
 				name = "Volcanic Chest",
-				price = 80,
+				price = 200,
 				itemtype = 36630,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5533,7 +5541,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Shelf.png" },
 				name = "Volcanic Shelf",
-				price = 100,
+				price = 200,
 				itemtype = 36640,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5542,7 +5550,7 @@ GameStore.Categories = {
 			{
 				icons = { "Volcanic_Table.png" },
 				name = "Volcanic Table",
-				price = 50,
+				price = 200,
 				itemtype = 36638,
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -5633,7 +5641,7 @@ GameStore.Categories = {
 			{
 				icons = { "Grandiose_Bed.png" },
 				name = "Grandiose Bed",
-				price = 150,
+				price = 250,
 				itemtype = { 35936, 35937 },
 				count = 1,
 				description = "<i>Sleep in a bed to restore soul, mana and hit points and to train your skills!</i>\n\n{house}\n{boxicon}comes in 2 boxes which can only be unwrapped by purchasing character, put the 2 parts together to get a functional bed\n{storeinbox}\n{usablebyallicon}if not already occupied, it can be used by every Premium character that has access to the house\n{useicon}use it to sleep in it\n{backtoinbox}\n",
@@ -5660,7 +5668,7 @@ GameStore.Categories = {
 			{
 				icons = { "Kraken_Bed.png" },
 				name = "Kraken Bed",
-				price = 150,
+				price = 350,
 				itemtype = { 37201, 37202 },
 				count = 1,
 				description = "<i>Sleep in a bed to restore soul, mana and hit points and to train your skills!</i>\n\n{house}\n{boxicon}comes in 2 boxes which can only be unwrapped by purchasing character, put the 2 parts together to get a functional bed\n{storeinbox}\n{usablebyallicon}if not already occupied, it can be used by every Premium character that has access to the house\n{useicon}use it to sleep in it\n{backtoinbox}\n",
@@ -5669,7 +5677,7 @@ GameStore.Categories = {
 			{
 				icons = { "Log_Bed.png" },
 				name = "Log Bed",
-				price = 150,
+				price = 200,
 				itemtype = { 37031, 37032 },
 				count = 1,
 				description = "<i>Sleep in a bed to restore soul, mana and hit points and to train your skills!</i>\n\n{house}\n{boxicon}comes in 2 boxes which can only be unwrapped by purchasing character, put the 2 parts together to get a functional bed\n{storeinbox}\n{usablebyallicon}if not already occupied, it can be used by every Premium character that has access to the house\n{useicon}use it to sleep in it\n{backtoinbox}\n",
@@ -5678,7 +5686,7 @@ GameStore.Categories = {
 			{
 				icons = { "Magnificent_Bed.png" },
 				name = "Magnificent Bed",
-				price = 180,
+				price = 300,
 				itemtype = { 35859, 35860 },
 				count = 1,
 				description = "<i>Sleep in a bed to restore soul, mana and hit points and to train your skills!</i>\n\n{house}\n{boxicon}comes in 2 boxes which can only be unwrapped by purchasing character, put the 2 parts together to get a functional bed\n{storeinbox}\n{usablebyallicon}if not already occupied, it can be used by every Premium character that has access to the house\n{useicon}use it to sleep in it\n{backtoinbox}\n",
@@ -5723,7 +5731,7 @@ GameStore.Categories = {
 			{
 				icons = { "Vengothic_Bed.png" },
 				name = "Vengothic Bed",
-				price = 180,
+				price = 500,
 				itemtype = { 35883, 35884 },
 				count = 1,
 				description = "<i>Sleep in a bed to restore soul, mana and hit points and to train your skills!</i>\n\n{house}\n{boxicon}comes in 2 boxes which can only be unwrapped by purchasing character, put the 2 parts together to get a functional bed\n{storeinbox}\n{usablebyallicon}if not already occupied, it can be used by every Premium character that has access to the house\n{useicon}use it to sleep in it\n{backtoinbox}\n",
@@ -5778,7 +5786,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ferumbras_Exercise_Dummy.png" },
 				name = "Ferumbras Exercise Dummy",
-				price = 1000,
+				price = 600,
 				itemtype = 28559,
 				count = 1,
 				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
@@ -6043,7 +6051,7 @@ GameStore.Categories = {
 		icons = { "Category_Extras.png" },
 		name = "Extras",
 		rookgaard = true,
-		subclasses = { "Extra Services", "Useful Things" },
+		subclasses = { "Extra Services", "Useful Things", "Bags" },
 	},
 	-- Extras ~ Extras Services
 	{
@@ -6144,6 +6152,56 @@ GameStore.Categories = {
 				price = 25,
 				description = "<i>Teleports you instantly to your home temple.</i>\n\n{character}\n{useicon} use it to teleport you to your home temple</i>\n{battlesign}\n{info} does not work in no-logout zones or close to a character's home temple",
 				type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
+			},
+		},
+	},
+	-- Extras ~ Bags
+	{
+		icons = { "Category_UsefulThings.png" },
+		name = "Bags",
+		parent = "Extras",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "Permanent_Hunting_Task_Slot.png" },
+				name = "Bag you Desire",
+				price = 300,
+				id = 34109,
+				description = "",
+				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
+			},
+			{
+				icons = { "Permanent_Hunting_Task_Slot.png" },
+				name = "Primal Bag",
+				price = 400,
+				id = 39546,
+				description = "",
+				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
+			},
+			{
+				icons = { "Permanent_Hunting_Task_Slot.png" },
+				name = "Lion Bag",
+				price = 150,
+				id = 8853,
+				description = "",
+				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
+			},
+			{
+				icons = { "Permanent_Hunting_Task_Slot.png" },
+				name = "Cobra Bag",
+				price = 150,
+				id = 654,
+				description = "",
+				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
+			},
+			{
+				icons = { "Permanent_Hunting_Task_Slot.png" },
+				name = "Falcon Bag",
+				price = 150,
+				id = 655,
+				description = "",
+				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
 			},
 		},
 	},
@@ -6319,14 +6377,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-			},
-			{
-				icons = { "Jousting_Eagle.png" },
-				name = "Jousting Eagle",
-				price = 1250,
-				id = 145,
-				description = "{info} usable by all characters of the account\n{speedboost}\n\n<i>High above the clouds far away from dry land, the training of giant eagles takes place. Only the cream of the crop is able to survive in such harsh environment long enough to call themselves Jousting Eagles while the weaklings find themselves at the bottom of the sea. The tough ones become noble and graceful mounts that are well known for their agility and endurance.</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
 				icons = { "Jousting_Eagle_Baby.png" },
