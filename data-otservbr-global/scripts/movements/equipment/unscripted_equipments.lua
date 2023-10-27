@@ -11979,18 +11979,19 @@ local items = {
 		type = "deequip",
 		slot = "backpack",
 	},
-	{
-		-- golden bag
-		itemid = 655,
-		type = "equip",
-		slot = "backpack",
-	},
-	{
-		-- golden bag
-		itemid = 655,
-		type = "deequip",
-		slot = "backpack",
-	},
+	-- Using ID 655 for Falcon Bag
+	-- {
+	-- 	-- golden bag
+	-- 	itemid = 655,
+	-- 	type = "equip",
+	-- 	slot = "backpack",
+	-- },
+	-- {
+	-- 	-- golden bag
+	-- 	itemid = 655,
+	-- 	type = "deequip",
+	-- 	slot = "backpack",
+	-- },
 	{
 		-- purple bag
 		itemid = 653,

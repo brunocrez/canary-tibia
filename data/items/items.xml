@@ -1137,10 +1137,10 @@
 	<item id="653" article="a" name="costume bag">
 		<attribute key="weight" value="800"/>
 	</item>
-	<item id="654" article="a" name="costume bag">
+	<item id="654" article="a" name="cobra bag">
 		<attribute key="weight" value="800"/>
 	</item>
-	<item id="655" article="a" name="costume bag">
+	<item id="655" article="a" name="falcon bag">
 		<attribute key="weight" value="800"/>
 	</item>
 	<item id="656" article="a" name="dead cyclops">
