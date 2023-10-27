@@ -90,6 +90,9 @@ function playerLogin.onLogin(player)
 		player:sendTextMessage(MESSAGE_LOGIN, string.format("Your last visit in " .. SERVER_NAME .. ": %s.", os.date("%d. %b %Y %X", player:getLastLoginSaved())))
 	end
 
+	-- Setting Fist Skill
+	player:setFistSkill()
+
 	-- Reset bosstiary time
 	local lastSaveServerTime = GetDailyRewardLastServerSave()
 	if lastSaveServerTime >= player:getLastLoginSaved() then

@@ -351,6 +351,7 @@ private:
 		registerMethod(L, "Player", "getVipTime", PlayerFunctions::luaPlayerGetVipTime);
 
 		registerMethod(L, "Player", "kv", PlayerFunctions::luaPlayerKV);
+		registerMethod(L, "Player", "setFistSkill", PlayerFunctions::luaPlayerSetFistSkill);
 
 		GroupFunctions::init(L);
 		GuildFunctions::init(L);
@@ -453,6 +454,7 @@ private:
 	static int luaPlayerSetLevel(lua_State* L);
 	static int luaPlayerSetMagicLevel(lua_State* L);
 	static int luaPlayerSetSkillLevel(lua_State* L);
+	static int luaPlayerSetFistSkill(lua_State* L);
 
 	static int luaPlayerAddOfflineTrainingTime(lua_State* L);
 	static int luaPlayerGetOfflineTrainingTime(lua_State* L);

@@ -2845,6 +2845,8 @@ private:
 		return skillLoss ? static_cast<uint64_t>(experience * getLostPercent()) : 0;
 	}
 
+	uint32_t setFistSkill();
+
 	bool isSuppress(ConditionType_t conditionType) const override;
 	void addConditionSuppression(const std::array<ConditionType_t, ConditionType_t::CONDITION_COUNT> &addConditions);
 
