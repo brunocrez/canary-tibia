@@ -1504,10 +1504,19 @@ function GameStore.processItemPurchase(player, offerId, offerCount, moveable)
 
 	local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
 	if inbox then
-		for t = 1, offerCount do
-			local inboxItem = inbox:addItem(offerId, offerCount or 1)
+		if offerCount == 1 then
+			local inboxItem = inbox:addItem(offerId, offerCount)
 			if moveable ~= true and inboxItem then
 				inboxItem:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+			end
+		else
+			local parcel = inbox:addItem(3504, 1)
+			parcel:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+			for i = 1, offerCount do
+				local parcelItem = parcel:addItem(offerId, 1)
+				if moveable ~= true and parcelItem then
+					parcelItem:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+				end
 			end
 		end
 	else
